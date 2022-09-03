@@ -1,5 +1,3 @@
-from sre_constants import SUCCESS
-from tkinter import Image
 import cv2 as cv
 import cvzone as cvz
 from cv2 import resize
@@ -7,7 +5,7 @@ from cvzone.ColorModule import ColorFinder
 import numpy as np
 
 #assign the video into a variable 
-shot=cv.VideoCapture('D:/CS/Robotics club/basketball/video.mp4')
+shot=cv.VideoCapture('./video.mp4')
 
 #create object color finder 
 myColor=ColorFinder(False)
@@ -19,7 +17,7 @@ xPoints=[i for i in range (0,1000)]
 while True:
     #reading the shot's data: the video and the image
     success , img=shot.read()
-    #img=cv.imread("D:/CS/Robotics club/basketball/img.png") 
+    #img=cv.imread("./img.png") 
     img=img[0:900, :]
 
     #detect the color of the ball
