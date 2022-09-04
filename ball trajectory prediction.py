@@ -4,15 +4,15 @@ from cv2 import resize
 from cvzone.ColorModule import ColorFinder
 import numpy as np
 
-#assign the video into a variable 
-shot=cv.VideoCapture('./video.mp4')
-
 #create object color finder 
 myColor=ColorFinder(False)
 HSVvalues={'hmin': 0, 'smin': 72, 'vmin': 25, 'hmax': 12, 'smax': 187, 'vmax': 198}
 positionFramesx=[]
 positionFramesy=[]
 xPoints=[i for i in range (0,1000)]
+
+#assign the video into a variable 
+shot=cv.VideoCapture('./video.mp4')
 
 while True:
     #reading the shot's data: the video and the image
