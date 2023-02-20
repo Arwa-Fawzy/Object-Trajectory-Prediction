@@ -6,10 +6,16 @@ This aided to assign the location of the ball's center point in (x,y) coordinate
 ![Capture for the model](https://user-images.githubusercontent.com/101527083/220138132-ea9c18c5-86dc-4993-9bcd-1dc6bbbcff7d.PNG)
 
 ## Weakness point
-The weakness point is contouring any object with the same color as a ball, and this can cause errors within the fitting polynomial curve.  
-## Mechanical design:
+The weakness point is contouring any object with the same color as a ball (shown below as the basketball hoop was detected), and this can cause errors within the fitting polynomial curve.  
+
+![image](https://user-images.githubusercontent.com/101527083/220138603-d566053d-4c90-4ca0-a9a1-562ab119254a.png)
+
+## Solution of weakness point 
+I solved this error by taking the greatest area in the contouring. To illustrate, both the hoop and the ball had the same color; however, the curve was associated with ball center because the ball consumed a greater area from the pixels in the video frames.
+
+## Mechanical design
 The aim is to implement an H-bot gantry design attached to a basketball hoop that moves in XY plan to catch the ball. I am responsible for the software part: ball trajectory prediction. In this stage, I am searching for the polynomial fitting equation in 2D and the motion of a curve in 3D.
-## Problems:
+## Problems
 The complex problem is that I had to approximate the single 2D images into the 3D position. This decision was because the design of H-bot gantry is moving in XY plan, and the ball is projected from the Z axis that makes an angle with X and Y axes.
  
 ## Procedures
