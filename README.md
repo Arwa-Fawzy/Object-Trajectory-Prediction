@@ -13,6 +13,12 @@ The complex problem is that I had to approximate the single 2D images into the 3
     1. Ball detection with its center at a position vector (X,Y,Z)
     2. Plotting the motion of ball in a 3D graph with matplotlib 
     3. Searching for motion in a 3D curve to predict an equation for the polynomial curve of the ball motion 
+ 
+ ### Step 1 was done as shown below 
+ 
+ ![image](https://user-images.githubusercontent.com/101527083/220137668-d189df1a-9c34-484c-9f02-c2569629dc97.png) ![image](https://user-images.githubusercontent.com/101527083/220137756-1f8017ba-892c-4b9f-9431-38c7d6ad1265.png)
+
+Step 2 and 3 are (in progress)
     
 The current stage is for searching regarding the object trajectory prediction in 3D motion as it is one of the most important and complex topics in the computer vision field.
 
