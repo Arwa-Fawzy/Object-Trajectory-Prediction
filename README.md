@@ -1,7 +1,10 @@
 # Project Name: Moving Basketball Hoop
 Computer vision extends to several actions like object trajectory prediction. By OpenCV library, the color finder with HSV values could highlight the targeted object, the ball, among the rest of the objects. 
     
-This aided to assign the location of the ball's center point in (x,y) coordinates and was saved to be connected. Accordingly, the polynomial curve of its motion in the future was predicted, and this could be a turning point for creating a flying hoop. Moreover, this formed a path to knowing whether the ball will be shotted inside the traditional fixed hoop or not. 
+This aided to assign the location of the ball's center point in (x,y) coordinates and was saved to be connected. Accordingly, the polynomial curve of its motion in the future was predicted (shown below), and this could be a turning point for creating a flying hoop. Moreover, this formed a path to knowing whether the ball will be shotted inside the traditional fixed hoop or not. 
+
+![Capture for the model](https://user-images.githubusercontent.com/101527083/220138132-ea9c18c5-86dc-4993-9bcd-1dc6bbbcff7d.PNG)
+
 ## Weakness point
 The weakness point is contouring any object with the same color as a ball, and this can cause errors within the fitting polynomial curve.  
 ## Mechanical design:
