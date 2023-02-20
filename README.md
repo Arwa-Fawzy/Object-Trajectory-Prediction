@@ -20,5 +20,5 @@ The complex problem is that I had to approximate the single 2D images into the 3
 
 Step 2 and 3 are (in progress)
     
-The current stage is for searching regarding the object trajectory prediction in 3D motion as it is one of the most important and complex topics in the computer vision field.
+The current stage is for searching for the object trajectory prediction in 3D motion as it is one of the most important and complex topics in the computer vision field.
 
